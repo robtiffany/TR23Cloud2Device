@@ -12,7 +12,21 @@
             <ColumnDefinition Width="25*"/>
             <ColumnDefinition Width="123*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnSend" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="115" Margin="45,41,0,0" Height="39" Click="btnSend_Click"/>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="115" Margin="370,258,0,0" Height="39" Click="btnSend_Click" FontSize="18" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="textBoxProductOnePrice" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Margin="20,147,0,0" FontSize="18"/>
+        <TextBlock x:Name="textBlockProductOnePrice" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Product One Price:" VerticalAlignment="Top" Margin="20,123,0,0" Width="220" FontSize="18"/>
+        <ComboBox x:Name="comboBoxVendingMachines" HorizontalAlignment="Left" VerticalAlignment="Top" Width="220" Margin="20,24,0,0" FontSize="18" IsSynchronizedWithCurrentItem="False" SelectedIndex="0"/>
+        <TextBlock x:Name="textBlockSelectVM" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Select Vending Machine" VerticalAlignment="Top" Margin="20,0,0,0" Width="220" FontSize="18"/>
+        <TextBlock x:Name="textBlockProductOneName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Product One Name:" VerticalAlignment="Top" Margin="20,64,0,0" Width="220" FontSize="18"/>
+        <TextBox x:Name="textBoxProductOneName" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Margin="20,88,0,0" FontSize="18"/>
+        <TextBlock x:Name="textBlockProductTwoName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Product Two Name:" VerticalAlignment="Top" Margin="20,182,0,0" Width="160" FontSize="18"/>
+        <TextBox x:Name="textBoxProductTwoName" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Margin="20,208,0,0" FontSize="18"/>
+        <TextBlock x:Name="textBlockProductTwoPrice" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Product Two Price:" VerticalAlignment="Top" Margin="20,243,0,0" Width="160" FontSize="18"/>
+        <TextBox x:Name="textBoxProductTwoPrice" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Margin="20,267,0,0" FontSize="18"/>
+        <CheckBox x:Name="checkBoxProductOneName" Content="" HorizontalAlignment="Left" Margin="245,88,0,0" VerticalAlignment="Top" FontSize="18" Width="20" Height="20"/>
+        <CheckBox x:Name="checkBoxProductOnePrice" Content="" HorizontalAlignment="Left" Margin="245,147,0,0" VerticalAlignment="Top" FontSize="18" Width="20" Height="20"/>
+        <CheckBox x:Name="checkBoxProductTwoName" Content="" HorizontalAlignment="Left" Margin="245,208,0,0" VerticalAlignment="Top" FontSize="18" Width="20" Height="20"/>
+        <CheckBox x:Name="checkBoxProductTwoPrice" Content="" HorizontalAlignment="Left" Margin="245,267,0,0" VerticalAlignment="Top" FontSize="18" Width="20" Height="20"/>
 
     </Grid>
 </Window>
